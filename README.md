@@ -1,2 +1,2 @@
 # Billing-System
-Repo contains a backend system for a billing for an ecommerce platform. The backend is built using Nodejs.
+Repo contains a backend for a billing system of an ecommerce platform. The backend is built using Nodejs.
