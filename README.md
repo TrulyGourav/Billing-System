@@ -2,7 +2,7 @@
 Repo contains a backend for a billing system of an ecommerce platform. The backend is built using Nodejs.
 
 
------ Highlights:
+----- Highlights & About the Project:
 1. Passwords are encrypted using hashing and then stored in database.
 2. Cart initializing as soon user signs up.
 3. when user is deleted, associated cart is also deleted.
