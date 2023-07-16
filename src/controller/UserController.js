@@ -59,7 +59,7 @@ const signin = async(req, res)=>{
       return res.status(400).json({ error: 'Wrong Password' });
     }
     const token = jwt.sign({ email: existingUser.email, userId: existingUser._id }, Config.SECRET_KEY);
-    return res.status(201).json({ message: 'Signin successful. Sign in ho gya bhaii.............', token });
+    return res.status(201).json({ message: 'Signin successful', token });
 
   } catch (error) {
     console.error(error);

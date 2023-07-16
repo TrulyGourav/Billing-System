@@ -1,6 +1,6 @@
 const adminAuthMiddleware = (req, res, next) => {
     if (!req.user || !req.user.role){
-        console.log("role not accessible/defined");
+        console.log("User's role not defined");
     }
     // Check if the user is an admin
     if (req.user && req.user.role === 'admin') {

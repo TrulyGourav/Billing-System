@@ -1,9 +1,3 @@
-// const create = async(req, res)=>{
-//     res.send("created product text.....")
-// }
-
-// module.exports = {create};
-
 const Product = require('../model/Product');
 
 // Add a new product

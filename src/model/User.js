@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Cart = require('./Cart');
+const Order = require('./Order');
 
 const userSchema = new mongoose.Schema({
   name: {
@@ -25,6 +26,10 @@ const userSchema = new mongoose.Schema({
     ref: 'Cart', 
     default: null
   },
+  orders: [{
+    type: mongoose.Schema.Types.Mixed,
+    ref: Order
+  }]
 });
 
 module.exports = mongoose.model('User', userSchema);
